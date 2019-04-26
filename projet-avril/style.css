@@ -1,0 +1,93 @@
+
+.lorem {
+    height: 300px;
+    padding: 10px;
+    margin-top: 400px;
+    color: white;
+    
+}
+.lorem h1{
+    font-size: 80px;
+}
+.lorem p{
+    font-size: 20px;
+}
+nav{
+    position: fixed;
+}
+
+div ul li a:hover {
+    color: #ff0040;
+    text-decoration: underline #ff0040;
+    font-weight: bold;
+   
+}
+.lien-menu{
+    margin-right: 20px;
+    color: black;
+}
+
+#buton-1 {
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #ff0040;
+    
+}
+#buton-1:hover{
+    color: #ff0040;
+    background-color: white;
+}
+
+#butonn-2 {
+    width: 120px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+#service {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#nos {
+    padding-bottom: 10px;
+    background-image: url(barre.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+#service-trans {
+    font-size: 70px;
+    text-align: center;
+    color: rgba(1,1,1,0.1);
+    padding-bottom: 100px;
+}
+ul .multi-column-dropdown{
+    text-align: left;
+}
+.nav>li{
+    float: none;
+    display: inline-block;
+}
+.hyper {
+    margin: auto;
+    padding: 0 50px;
+      display: inline-block;
+      position: relative;
+      text-decoration: none;
+      color: black;
+      width: auto;
+      overflow: hidden;
+      z-index: 2;
+      transition: all .5s ease;
+}
+
+.red {
+    color: red;
+}
